@@ -1,0 +1,62 @@
+body, html {
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    font-family: "Lato";
+    color: #777;
+    height: 100%;
+}
+
+.conteudo {
+    color: #777;
+    background-color: white;
+    padding: 50px 80px;
+    text-align: justify;
+}
+
+h3 {
+    text-transform: uppercase;
+    color: #111;
+    text-align: center;
+}
+
+.caixa1 {
+    height: 100%;
+    background: url('imagens/imagem1.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.caixa2 {
+    height: 100%;
+    background: url('imagens/imagem2.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.caixa3 {
+    height: 100%;
+    background: url('imagens/imagem3.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.conteudo2 {
+    position: absolute;
+    left: 0;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+}
+
+.conteudo2 span {
+    background-color: gray;
+    padding: 15px;
+    color: white;
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing:3px;
+}
